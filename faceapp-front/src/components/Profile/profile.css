@@ -1,0 +1,141 @@
+.profileBackground {
+    padding: 10px;
+    display: block;
+    background-color: whitesmoke;
+    align-content: center;
+    position: relative;
+    text-align: center;
+    height: auto;
+    max-width: 300px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+
+.confirm {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    animation-name: popup;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+
+@keyframes popup {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+
+.options {
+    color: #fff !important;
+    width: 220px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #b10404;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    animation:  0.3s forwards;
+}
+
+.options2 {
+    color: #fff !important;
+    width: 220px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #b10404;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    
+}
+
+@keyframes delete {
+    from {margin-top: 0; opacity: 1; display: inline-block;}
+    to {margin-top: 50px; opacity: 0; display: none;}
+}
+
+.options:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+
+}
+
+.profilePic {
+    border: 5px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    transition: 1s ease;
+    
+  }
+
+.profilePic:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.05);
+    transition: 1s ease;
+}
+
+#fileinput {
+    visibility: hidden;
+}
+
+.filelabel {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #18ad18;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+    
+    
+}
+
+.filelabel:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+  
+.exit {
+    position: absolute;
+    right: 0px;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    align-self: baseline;
+  }
+
+  .exit:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+  }

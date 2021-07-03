@@ -1,0 +1,15 @@
+
+
+.container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 500px;
+    /* height: auto; */
+  }
+
+  #imgborder {
+    position: absolute;
+    box-shadow: 0 0 0 3px red inset;
+
+  }
